@@ -321,8 +321,8 @@ RCT_EXPORT_METHOD(disconnect) {
     builder.minSize = TVIVideoConstraintsSize960x540;
     builder.maxSize = TVIVideoConstraintsSize1280x720;
     builder.aspectRatio = TVIAspectRatio16x9;
-    builder.minFrameRate = TVIVideoConstraintsFrameRateNone;
-    builder.maxFrameRate = TVIVideoConstraintsFrameRateNone;
+    builder.minFrameRate = TVIVideoConstraintsFrameRate30;
+    builder.maxFrameRate = TVIVideoConstraintsFrameRate30;
   }];
 }
 
