@@ -181,10 +181,10 @@ public class CustomTwilioVideoView extends View implements LifecycleEventListene
 
     private VideoConstraints buildVideoConstraints() {
         return new VideoConstraints.Builder()
-                .minVideoDimensions(VideoDimensions.CIF_VIDEO_DIMENSIONS)
-                .maxVideoDimensions(VideoDimensions.CIF_VIDEO_DIMENSIONS)
-                .minFps(5)
-                .maxFps(15)
+                .minVideoDimensions(VideoDimensions.HD_540P_VIDEO_DIMENSIONS)
+                .maxVideoDimensions(VideoDimensions.HD_720P_VIDEO_DIMENSIONS)
+                .minFps(30)
+                .maxFps(30)
                 .build();
     }
 
